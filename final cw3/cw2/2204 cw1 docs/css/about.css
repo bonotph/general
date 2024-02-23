@@ -1,0 +1,43 @@
+.aboutimage{
+    max-width: 100%;  
+}
+.welcome{
+    max-width: 80%;
+    margin-left:11%;
+}
+.welcome1,.welcome2{
+    width: 41%;
+    margin: 2%;
+    float: left;
+    border: 2px solid black;
+    border-collapse:collapse;
+    padding: 2%;
+    border-radius: 10%;
+}
+h3{
+    background-color: lightgray;
+    text-align:center;
+    width: 80%;
+    margin-left: 10%;
+    clear: both;
+}
+table{
+    margin-left:10%;
+    width: 80%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+th,td{
+    border: 1px solid black;
+    text-align: center;
+}
+thead{
+    background-color: lightgray;
+}
+tbody>tr:nth-child(odd){
+    background-color: rgba(211,211,211, 0.1)
+}
+tbody>tr:hover{
+    background-color: lightblue !important;
+}

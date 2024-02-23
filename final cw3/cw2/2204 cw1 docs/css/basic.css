@@ -1,0 +1,45 @@
+.logo{
+    max-width: 100%;
+}
+header{
+    background-color: burlywood;
+    text-align: center;
+    padding-bottom: 1%;
+}
+nav{
+    background-color: grey;
+    float: left;
+    width: 100%;
+    
+}
+nav>ul>li{
+    float: left;
+    padding: 2% 5%;
+ 
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-size: 2vw;
+}
+a:active{
+    color: green;
+}
+a:hover{
+    color: orange;
+}
+a:visited{
+    color: purple;
+}
+footer{
+    background-color: burlywood;
+    border-top: 800px;
+    clear: both;
+    text-align: center;
+}
+.footerlogo{
+    max-width: 100%;
+}

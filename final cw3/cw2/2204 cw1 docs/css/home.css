@@ -1,0 +1,21 @@
+.welcome{
+    background-color: lightgray;
+    text-align: center;
+    padding: 8%;
+    border-radius: 5%;
+}
+.info, .mapapply{
+    margin: 2%;
+    float:left;
+    width: 46%;
+}
+.map{
+    width: 100%;
+}
+.button{
+    width: 60%;
+    height: 40%;
+}
+
+
+

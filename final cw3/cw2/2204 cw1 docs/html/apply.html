@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" type = "text/css" href = "../css/basic.css" media ="all">
+    <link rel ="stylesheet" type = "text/css" href = "../css/apply.css" media ="screen">
+    <link rel ="stylesheet" type = "text/css" href = "../css/printApply.css" media ="print">
+    <title>apply</title>
+</head>
+<body>
+    <header>
+        <img src="../image/logo.png" alt = "logo" width="400" height="100" class = "logo">
+        <h1>Hong Kong Industrial University</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href = "Home.html">Home</a></li>
+            <li><a href = "about.html">About</a></li>
+            <li><a href = "apply.html">Apply</a></li>
+            <li><a href = "visit.html">Visit</a></li>
+            <li><a href = "program.html">Program</a></li>
+            <li><a href = "contact.html">Contact</a></li>
+            
+        </ul>
+    </nav>
+   
+    <div class = common>
+        <h2>Welcome to HKIU</h2>
+        <h3>Common Application to Undergraduate Program</h3>
+        <h4 class = "engine" >College of Engineering</h4>
+        <h4 class = "science">College of Science</h4>
+        <h4 class = "intstu">College of Interdisciplinary Studies</h4>
+    
+        <div class = "engsub">
+        <form method = "get" action = "#">
+            <img src = "../image/cs.png" alt = "cs" width = "200" height = "200"><br>
+            <label for = "cs">BSc in Computer Science and Technology</label><br>
+            <input type = "text" id = "cs" name = "cs">
+            <button id="cs_b">rank of choice</button><br>
+        </form>
+        <form method = "get" action = "#">
+            <img src = "../image/ei.png" alt = "ei" width = "200" height = "200"><br>
+            <label for = "ei">BEng in Electronic Information</label><br>
+            <input type = "text" id = "ei" name = "ei">
+            <button id = "ei_b">rank of choice</button><br>
+        </form>
+        <form method = "get" action = "#">
+            <img src = "../image/mse.png" alt = "mse" width = "200" height = "200"><br>
+            <label for = "mse">BEng in Materials Science and Engineering</label><br>
+            <input type = "text" id = "mse" name = "mse">
+            <button id = "mse_b">rank of choice</button><br>
+        </form>
+        <form method = "get" action = "#">
+            <img src = "../image/mc.png" alt = "mc" width = "200" height = "200"><br>
+            <label for = "cs">BEng in Materials and Chemicals</label><br>
+            <input type = "text" id = "mc" name = "mc">
+            <button id = "mc_b">rank of choice</button><br>
+        </form>
+        <form method = "get" action = "#">
+            <img src = "../image/est.png" alt = "est" width = "200" height = "200"><br>
+            <label for = "est">BSc in Electronic Science and Technology</label><br>
+            <input type = "text" id = "est" name = "est">
+            <button id = "est_b">rank of choice</button><br>
+        </form>
+        </div>
+        <div class = "scisub">
+        <form method = "get" action = "#">
+            <img src = "../image/phy.png" alt = "phy" width = "200" height = "200"><br>
+            <label for = "phy">BSc in Physics</label><br>
+            <input type = "text" id = "phy" name = "phy">
+            <button id = "phy_b">rank of choice</button><br>
+        </form>
+        <form method = "get" action = "#">
+            <img src = "../image/chem.png" alt = "chem" width = "200" height = "200"><br>
+            <label for = "chem">BSc in Chemistry</label><br>
+            <input type = "text" id = "chem" name = "chem">
+            <button id = "chem_b">rank of choice</button><br>
+        </form>
+        <form method = "get" action = "#">
+            <img src = "../image/bio.png" alt = "bio" width = "200" height = "200"><br>
+            <label for = "bio">BSc in Biology</label><br>
+            <input type = "text" id = "bio" name = "bio">
+            <button id = "bio_b">rank of choice</button><br>
+        </form>
+        </div>
+        <div class = "intsub">
+            <form method = "get" action = "#">
+            <img src = "../image/cogs.png" alt = "cogs" width = "200" height = "200"><br>
+            <label for = "cogs">BSc in Cognitive Science</label><br>
+            <input type = "text" id = "cogs" name = "cogs">
+            <button id = "cogs_b">rank of choice</button><br>
+        </form>
+        <form method = "get" action = "#">
+            <img src = "../image/be.png" alt = "be" width = "200" height = "200"><br>
+            <label for = "be">BSc in Biomedical Engineering</label><br>
+            <input type = "text" id = "be" name = "be">
+            <button id = "be_b">rank of choice</button><br>
+        </form>
+        <form method = "get" action = "#">
+            <img src = "../image/bm.png" alt = "bm" width = "200" height = "200"><br>
+            <label for = "bm">BSc in Computer Science and Technology</label><br>
+            <input type = "text" id = "bm" name = "bm">
+            <button id = "bm_b">rank of choice</button><br>
+        </form>
+        </div>
+    </div>
+
+    <div>
+        <h3>Your chosen majors:</h3>
+        <h4 class = "time"></h4>
+    <table>
+        <thead>
+        <tr>
+            <th>College</th>
+            <th>Major</th>
+            <th>Rank</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>8</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td>10</td>
+            </tr>
+            
+        </tbody>
+    </table>
+    <h4 class = "majorNum">Total number of completed choices: 0</h4><br>
+    <div class = "errorMsg"></div>
+    <form method = "get" action = "#">
+        <input type = "submit" id = "submit" name = "submit" value="submit">
+        <input onclick = "clearAll()" type = "reset" id = "clear" name = "clear" value = "clear">
+        <script>
+            function clearAll(){
+                for (var i = 0; i < 10; i++) {
+                    majorData[i].innerHTML = "";
+                    collegeData[i].innerHTML = "";
+                }
+                majorNum.innerHTML = "Total number of completed choices: 0";
+                time.innerHTML = "";
+                num = 0;
+                error.innerHTML = "";
+        }</script>
+    </form>
+    </div>
+   
+    <footer>
+        <img src = "../image/footer_logo.png" alt="footer logo" width="300" height="100" class = "footerlogo"><br>
+        © CityU 2023 sources of images and text from Wikipedia Commons and Courtesy of Icon pack by Icons8 -- designed by <a href = "design.html">Bono</a>
+    </footer>
+    <script type = "text/javascript" src = "../js/apply.js"></script>
+</body>
+</html>
+

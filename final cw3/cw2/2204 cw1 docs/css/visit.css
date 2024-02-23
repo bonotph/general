@@ -1,0 +1,41 @@
+.welcome{
+    margin-top: 10%;
+}
+.map > img{
+    float: left;
+    width: 40%;
+    height: 40%;
+    margin: 5%;
+}
+.location{
+    float: left;
+    width: 40%;
+    margin: 5%;
+}
+.openday{
+    text-align: center;
+    clear: both;
+    margin-bottom: 3%;
+}
+.reservation{
+    margin: auto 20% auto;
+}
+legend{
+    font-weight: bold;
+}
+label{
+    text-align: right;
+    float: left;
+    clear: both;
+    width: 30%;
+}
+input, select{
+    float: left;
+    width: 20%;
+    margin-left: 2%;
+}
+input[type=submit]{
+    clear: both;
+    margin-left: 32%;
+    margin-right: 2%;
+}

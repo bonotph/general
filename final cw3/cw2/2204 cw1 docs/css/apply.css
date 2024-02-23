@@ -1,0 +1,43 @@
+h2{
+    text-align: center;
+}
+.common{
+    display: inline-block;
+    width: 100%;
+}
+.common>h4{
+    width: 30%;
+    float: left;
+    padding:0 1%;
+    border-radius: 5%;
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.engsub>form, .scisub>form, .intsub>form{
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+}
+thead{
+    background-color: burlywood;
+}
+table{
+    width:100%;
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+th,tr,td{
+    border: 2px solid grey;
+    border-collapse: collapse;
+}
+tbody>tr:nth-child(odd){
+    background-color: lightgray;
+}
+tr:hover{
+    background-color: lightblue !important;
+}
+.hidden{
+    display: none;
+}
